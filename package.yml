@@ -1,0 +1,16 @@
+name       : python-smmap2
+version    : 2.0.3
+release    : 1
+source     :
+    - https://github.com/gitpython-developers/smmap/archive/v2.0.3.tar.gz : 0ee6d3d1b406ef2d591bb6c1a094363dfda34bf5313eda8a65946a19228ef208
+license    : BSD-3-Clause
+component  : programming.python
+summary    : A pure python implementation of a sliding window memory map manager
+description: |
+    A pure python implementation of a sliding window memory map manager
+builddeps  :
+    - python-setuptools
+build      : |
+    %python_setup
+install    : |
+    %python_install
